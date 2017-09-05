@@ -350,6 +350,16 @@ Python codifica en ASCII por default, para cambiarlo por UNICODE debemos colocar
 * UNICODE incluye la mayoria de los abecedarios
 
 
+## Factorial 
+
+Este paradigma busca resolver los problemas metiéndose en otro llamado funcional: todo son funciones matemáticas. ¿Qué tiene de distinto esto con lo que venimos viendo? Que en este caso no vamos a usar ciclos, ya que al fin y al cabo se podrían imitar con recursiones ¿no?.
+Para que esto tenga sentido y funcione tienen que pasar dos cosas:
+
+* f tiene que tener un “caso base”, es decir, una condición que haga frenar la recursión. Es un conjunto de valores, tales que cuando f los recibe, retornará una respuesta sin volver a realizar recursión.
+
+* f debería tener un “caso recursivo”, es decir, una condición que le haga seguir haciendo recursión (hasta eventualmente - si las cosas están bien hechas - llegar a un caso base y así terminar).
+
+
 
 
 
