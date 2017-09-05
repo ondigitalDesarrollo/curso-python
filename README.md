@@ -275,6 +275,16 @@ En Python las funciones se definen usando la palabra reservada def y luego el no
 * Para definir un bloque dentro de la función debemos indentar con 4 espacios.
 * Las funciones nos permiten ejecutar determinado código con diferentes valores.
 
+### Funciones con Parámetros
+
+**Limites al declarar funciones**
+
+* EL nombre de la función no puede empezar como un digito.
+* No pueden utilizar una palabra reservada.
+* Las variables deben tener nombres diferentes.
+* Los nombres de las funciones deben ser descriptivas de lo que hacen las funciones.
+
+
 
 
 
