@@ -330,6 +330,24 @@ Si la aplicación es fácil de explicar, puede ser una buena idea.
 Los espacios de nombres son una gran idea ¡hay que hacer más de eso!
 
 
+## Comparación de strings y unicode
+
+Los *strings* tiene una característica muy importante: son inmutables, esto quiere decir que no se pueden cambiar después de que se han declarado.
+Si quieres modificar el texto de un *string* debes definir un nuevo string y modificarlo usando funciones como *slice.*
+
+**Comparación de Strings**
+
+Se pueden realizar operaciones con strings, por ejemplo comparar si son iguales o mayores o menores.
+
+**Diferencia entre ASCII y Unicode**
+
+Los caracteres también son números, para esto existen estándares que asigna un número a cada carácter, para generar un estándar se creó el ASCII pero esta solo toma en cuenta los caracteres en inglés, para dar soporte a más lenguajes se crea UNICODE.
+
+Python codifica en ASCII por default, para cambiarlo por UNICODE debemos colocar u antes del string.
+
+* Ambos sin codificadores de lenguaje
+* ASCII (American Standard Code For Information Interchange*
+* UNICODE incluye la mayoria de los abecedarios
 
 
 
