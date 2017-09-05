@@ -18,7 +18,7 @@ Todos los programas se componen de partes esenciales que son forma de darle dato
 * Portable: para todo sistema operativo.
 * Recargado: viene con muchas librerías por defecto.
 
-## Lo Básico:
+## SINTAXIS:
 
 ### Tipos de Datos
 
@@ -107,6 +107,21 @@ De Tupla a Lista:
 
     list(4,5,6)
 
+## Operadores Matemáticos 
+
+* (+) Suma
+* (-) Resta
+* (asterisco) Multiplicación
+* (/) División
+* (//) División de enteros
+* (%) Operador de módulo
+* (doble asterisco) Potencias
+* (>) Mayor que
+* (<) Menor que
+* (==) Igual
+* (>=) Mayor igual
+* (<=) Menor igual
+
 
 ## Operadores Comunes
 
@@ -175,6 +190,82 @@ Método llamado para comprobar la longitud del objeto. Lo usas, por ejemplo, cua
 
 _init(self,otro)_
 Es un constructor de nuestra clase, es decir, es un “método especial” que es llamas automáticamente cuando creas un objeto.
+
+
+## Condicionales
+
+### If
+
+Los condicionales tienen la siguiente estructura. Ten en cuenta que lo que contiene los paréntesis es la comparación que debe cumplir para que los elementos se cumplan.
+
+### Bucle FOR
+
+El bucle de for lo puedes usar de la siguiente forma: recorres una cadena o lista a la cual va a tomar el elemento en cuestión con la siguiente estructura:
+
+    for i in ____:
+ 	    elementos
+
+    for i in range(10):
+        print i
+
+En este caso recorrerá una lista de diez elementos, es decir el _print i _de ejecutar diez veces. Ahora i va a tomar cada valor de la lista, entonces este for imprimirá los números del 0 al 9 (recordar que en un range vas hasta el número puesto -1).
+
+### Bucle While
+
+En este caso while tiene una condición que determina hasta cuándo se ejecutará. O sea que dejará de ejecutarse en el momento en que la condición deje de ser cierta. La estructura de un while es la siguiente:
+
+    while (condición):
+        elementos
+
+
+
+## Conceptos Básicos
+
+### Orden de Operaciones
+
+_PEMDAS (ParentesisExponentesMultiplicaciónDivisiónAdiciónSustracción)_
+
+* Paréntesis
+* Exponentes
+* Multiplicación/División
+* Adición/Sustracción
+
+### Valores y Tipos
+
+Los valores son uno de los componentes básicos con los que trabaja un programa, como una letra o un un número, todos los valores tienen un tipo.
+
+Los tipos le permiten a Python saber cuál es el resultado de aplicar determinada operación, los tipos básicos son:
+
+* Integer <int>
+* Float <float>
+* String <str>
+* Boolean <bool>
+
+Para saber el tipo de valor usamos la función type(2)
+
+### Declarar Variables y Expresiones
+
+Las variables nos permiten guardar valores, permitiéndonos reutilizarlos en diferentes partes del código y haciendo nuestros programas más legibles.El valor que contiene una variable puede ser reasignado, significa que podemos asignarle diferentes valores a una misma variable.
+
+Las variables tienen algunas limitantes, por ejemplo:
+
+* Tienen que tener un nombre significativo, es decir, que nos digan qué están haciendo.
+* No podemos usar palabras reservadas del lenguaje como nombres para nuestras variables (por ejemplo class, false, none, true).
+
+#### Nombres de Variables:
+
+* Tienen que tener un nombre significativo
+* Relacionados con lo que representa la variable
+* No deben ser Keywords (Palabaras Reservadas)
+
+*Recuerda:*
+
+* Todos los programas de Python deben guardarse con extensión .py
+* Para darle soporte a acentos en nuestros programas debemos usar la línea # -- coding: utf-8 -*-
+
+### Funciones
+
+
 
 
 
