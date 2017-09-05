@@ -265,7 +265,15 @@ Las variables tienen algunas limitantes, por ejemplo:
 
 ### Funciones
 
+Las funciones son un concepto fundamental en programación, una función es una secuencia de comandos que realizan un computo.
+En Python las funciones se definen usando la palabra reservada def y luego el nombre de la función con paréntesis y dos puntos que indican que lo que sigue son los comandos, una función debe retornar un valor, para esto se usa la palabra reservada return.
 
+*Recuerda:*
+
+* Si usas Python 3, debes usar la función input() para recibir datos del usuario.
+* Para definir dónde comenzar el código usamos la línea Screen Shot 2017-08-17 at 4.42.46 PM.png
+* Para definir un bloque dentro de la función debemos indentar con 4 espacios.
+* Las funciones nos permiten ejecutar determinado código con diferentes valores.
 
 
 
