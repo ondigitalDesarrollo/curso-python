@@ -1,5 +1,12 @@
 # PYTHON
 
+Python es un lenguaje de programación creado por Guido van Rossum
+a principios de los años 90 cuyo nombre está inspirado en el grupo de
+cómicos ingleses “Monty Python”. Es un lenguaje similar a Perl, pero
+con una sintaxis muy limpia y que favorece un código legible.
+Se trata de un lenguaje interpretado o de script, con tipado dinámico,
+fuertemente tipado, multiplataforma y orientado a objetos.
+
 Python es un lenguaje bastante bueno para aprender a programar ya que tiene una comunidad muy grande que te ayudará a superar tus dudas, tiene una sintaxis para escribir bastante sencilla.
 
 ## ¿QUÉ ES PROGRAMAR?
@@ -427,7 +434,57 @@ for nos permite recorrer un arreglo, asignando cada valor a una variable que dec
         print('Ando en un loop')
         i -= 1
 
+## Estructuras de Datos
 
+### Listas
+
+Una lista es una secuencia de elementos, para crearlas usamos corchetes [] o con la función list.
+Las listas son mutables, para añadir elementos a un alista podemos utilizar el método append.
+Las listas se pueden acceder con indices, que inician en cero.
+
+    amigos = list[]
+
+### Operaciones con Listas 
+
+**Unir Listas**
+
+    my_lista = [1]
+
+    my_lista2 = [2,3,4]
+
+    my_lista3 = my_lista + my_lista2
+
+    my_lista3 # [1,2,3,4]
+
+**Multiplicar elementos**
+
+    my_lista = [\'a\']
+    my_lista2 = my_lista * 5
+    my_lista2 # [\'a\',\'a\',\'a\',\'a\',\'a\']
+
+**Dividir listas**
+
+    my_lista = [1,2,3,4,5]
+    my_lista_reversed = my_lista[::-1]
+    my_lista_reversed # [5,4,3,2,1]
+
+**Eliminar último elemento de la lista**
+
+    my_lista = [1,2,3,4,5]
+    my_lista = my_lista.pop()
+    my_lista # [1,2,3,4]
+
+**Ordenar la lista**
+
+    my_lista = [2,1,5,4,3]
+    my_lista = my_lista.sort()
+    my_lista # [1,2,3,4,5]
+
+**Eliminar un ELemento**
+
+    my_lista = [1,2,3,4,5]
+    del my_lista[0]
+    my_lista # [2,3,4,5]
 
 
 
