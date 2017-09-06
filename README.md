@@ -359,6 +359,76 @@ Para que esto tenga sentido y funcione tienen que pasar dos cosas:
 
 * f debería tener un “caso recursivo”, es decir, una condición que le haga seguir haciendo recursión (hasta eventualmente - si las cosas están bien hechas - llegar a un caso base y así terminar).
 
+## Manejo de Strings en Python
+
+Un string es una secuencia de caracteres, donde cada caracter tiene un indice que inicia en cero. Para saber la longitud de un string se usa la función len().
+
+    len(my_string)
+
+Para obtener el último caracter del string se usa la siguiente línea de código
+
+    my_string[len(my_string)-4]
+
+### Métodos de los Strings
+
+Existen métodos del lenguaje para manipular el string de manera sencilla.
+
+* upper
+* isupper
+* lower
+* islower
+* find
+* isdigit
+* endswidth
+* starswidth
+* split
+* join
+
+## Separar Cadenas de Texto
+
+La función slice de python nos permite separar los strings en substrings generando nuevas secuencias.
+
+* Se puede obtener una substring utilizando la notación de _slices_
+* Se definen los rangos que se requieren y los saltos necesarios.
+
+    my_string = \'platzi \'
+    my_string[1:3] # la
+    my_string[1:] # latzi
+    my_string[1:6:2] # lti
+    my_string[::-1] # iztalp    
+    my_string[starts:end:steps] # iztalp    
+
+## Iteraciones
+
+### Función Range
+
+La función range nos permite generar un string apartir de un rango.
+
+    range(5) # [0,1,2,3,4]
+    range(5, 40, 3)
+
+### Ciclos con For
+
+for nos permite recorrer un arreglo, asignando cada valor a una variable que decidas.
+
+* Se puede usar para recorrer strings
+* Se nececita el keyword `in`
+* Si se requiere salir de la iteración se utiliza e keyword `break`
+* Si se requiere pasar a la siguiente iteración se utiliza e keyword `continue`
+
+
+### While Loop
+
+* Similar a un `for` loop, pero en lugar de recorrer una secuencia, se ejecuta hasta ue una condición se convierta en falsa.
+* Se debe tener mucho cuidado e no caer en un **infinite loop**
+
+    i = 0
+    while i > 0
+        print('Ando en un loop')
+        i -= 1
+
+
+
 
 
 
