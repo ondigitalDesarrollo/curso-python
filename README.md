@@ -495,6 +495,10 @@ Una forma es buscar un ítem tras otro, pero sí la lista es muy larga esta form
 Con el algoritmo de búsqueda binaria partimos de la lista ordenada, nosotros sabemos que hay números mayores y menores que el numero que estamos buscando.
 Seleccionamos un numero aleatorio para dividir la lista, puedes escoger cualquier número, en éste caso sumamos el primer y el último indice de la lista, los sumamos y dividimos en dos (por eso se llama binario), luego comparamos el número que esta en el indice, de esta manera ya eliminamos la mitad de las opciones. Podemos continuar dividiendo la lista y comparando hasta que lleguemos al resultado esperado.
 
+## Diccionarios
+
+Un diccionario es un mapa de valores, los cuales deben tener una llave, los diccionarios se declaran con (llaves) {} o con la función dict()
+Cuando iteramos en diccionarios podemos hacerlo a través de las llaves, valores o ítems.
 
 
 
